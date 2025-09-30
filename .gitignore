@@ -1,0 +1,35 @@
+# Build and binary directories
+/build/
+/bin/
+/cmake-build-*/
+
+# Qt generated files
+*.qmlc
+*.jsc
+*.moc
+*.qrc.dep
+*.qrc.cpp
+*.obj
+*.pdb
+*.ilk
+
+# CMake and cache
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# IDE files
+*.user
+*.user.*
+*.sln
+*.vcxproj*
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
